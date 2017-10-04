@@ -66,7 +66,7 @@ canvas.drawEllipse(centreX: 200, centreY: 360, width: 45, height: 15)
 
 //Create a circle
 canvas.fillColor = Color.purple
-canvas.drawEllipse(centreX: 100, centreY: 360, width: 45, height: 15)
+canvas.drawEllipse(centreX: 101, centreY: 360, width: 45, height: 15)
 
 //Create a line
 
