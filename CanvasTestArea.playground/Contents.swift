@@ -46,11 +46,30 @@ canvas.drawEllipse(centreX: 107, centreY: 407, width: 15, height: 15)
 
 //Create a circle
 canvas.fillColor = Color.white
+canvas.drawEllipse(centreX: 107, centreY: 407, width: 15, height: 15)
+
+
+//Create a circle
+canvas.fillColor = Color.white
 canvas.drawEllipse(centreX: 207, centreY: 407, width: 15, height: 15)
 
 //Create a nose
 canvas.fillColor = Color.black
 canvas.drawEllipse(centreX: 150, centreY: 350, width: 40, height: 75)
+
+//Create a mouth
+canvas.drawEllipse(centreX: 150, centreY: 280, width: 40, height: 20)
+
+//Create a circle
+canvas.fillColor = Color.purple
+canvas.drawEllipse(centreX: 200, centreY: 360, width: 45, height: 15)
+
+//Create a circle
+canvas.fillColor = Color.purple
+canvas.drawEllipse(centreX: 100, centreY: 360, width: 45, height: 15)
+
+//Create a line
+
 
 // This code is necessary to see the result in the Assistant Editor at right
 PlaygroundPage.current.liveView = canvas.imageView
